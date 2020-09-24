@@ -1,0 +1,35 @@
+.body{
+    padding: 32px;
+    height: auto;
+}
+
+.card{
+    width: 20%;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.genre-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+p{
+    margin-right: 8px;
+}
+
+.paginator{
+    float: right;
+}
